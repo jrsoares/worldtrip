@@ -1,7 +1,6 @@
 import { extendTheme} from "@chakra-ui/react";
 
 export const theme  = extendTheme({
-styles: {
   colors: {
     white: "#FFFFFF",
     gray: {
@@ -13,14 +12,16 @@ styles: {
     black: "#000000",
     yellow: "#FFBA08",
   },
+  
   fonts: {
     body: "Poppins",
     heading: "Poppins"
   },
+
+styles: {
   global: {
     body: {
       bg: 'gray.50'
-    
     }
   }
 }  
