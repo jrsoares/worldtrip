@@ -13,10 +13,14 @@ styles: {
     black: "#000000",
     yellow: "#FFBA08",
   },
-
+  fonts: {
+    body: "Poppins",
+    heading: "Poppins"
+  },
   global: {
     body: {
       bg: 'gray.50'
+    
     }
   }
 }  
