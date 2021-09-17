@@ -1,5 +1,12 @@
+import { Container } from "@chakra-ui/react";
+import Banner from "../components/Banner";
 import Header from "../components/Header";
 
 export default function HomePage() {
-  return <Header />;
+  return (
+    <Container width="1440px">
+      <Header />
+      <Banner />
+    </Container>
+  );
 }
