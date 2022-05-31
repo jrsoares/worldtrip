@@ -1,6 +1,9 @@
-import { Box } from "@chakra-ui/react";
-import { Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
 export default function Banner() {
-  return <Image src="/assets/bg.png" alt="hero-image" />;
+  return (
+    <Box>
+      <Image src="/assets/Banner.png" alt="Banner"/>
+    </Box>
+  );
 }

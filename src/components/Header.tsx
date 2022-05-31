@@ -1,13 +1,9 @@
-import { Flex, Image } from "@chakra-ui/react";
+import { Center, Image } from "@chakra-ui/react";
 
 export default function Header() {
   return (
-    <Flex
-      alignItems="center"
-      justifyContent="center"
-      padding="27"
-    >
+    <Center p="27px">
       <Image src="/assets/Logo.svg" alt="Logo" />
-    </Flex>
+    </Center>
   );
 }
